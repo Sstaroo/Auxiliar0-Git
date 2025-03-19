@@ -7,8 +7,9 @@ class Usuario:
 
     def agregarTarea(self, tarea):
         self.tareas.append(tarea)
-        
+
     def listarTareas(self):
         for tarea in self.tareas:
             if tarea.estaLista():
                 print(f"La tarea {tarea.obtenerNombre()} está lista")
+
